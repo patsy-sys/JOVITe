@@ -1,0 +1,134 @@
+body{
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background: #444;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.hero{
+    height: 90vh;
+    background: url('images/heroj.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: bottom;
+    color: white;
+    padding: 20px;
+    font-size: bold;
+}
+
+.hero-content{
+    background: rgba(97, 91, 91, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.hero h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 25px;
+    background: gold;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.services{
+    padding: 40px 5px;
+}
+
+.service-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.stores {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    padding: 15px;
+}
+
+.store-cards {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0.1);
+    text-align: center;
+    width: 500px;
+}
+
+.store-image{
+    width: 474px;
+    height: 315px;
+    border-radius: 10px;
+}
+.about-title {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center; 
+    text-align: center;
+}
+
+.about-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.about-content {
+    background: rgb(252, 248, 248);
+    padding: 20px;
+
+}
+
+.contact {
+    background: #444;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
